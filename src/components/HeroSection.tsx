@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-8">
-            Connect. Chat. Roam Freely
+            Travel Further. Spend Less.
           </h1>
           
           {/* Hero Illustration */}
@@ -46,15 +46,12 @@ const HeroSection = () => {
           </div>
 
           <p className="text-lg text-text-light max-w-2xl mx-auto mb-8">
-            Ketravelan is a group chat platform that connects you with like-minded travelers, empowering you to explore the world on your terms — no travel agents, just freedom and community.
+            Join the next generation of travelers upgrading their adventures through connection and cost sharing with Ketravelan.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex justify-center">
             <Button variant="coral" size="lg" className="text-lg px-8">
-              Sign up
-            </Button>
-            <Button variant="coral-outline" size="lg" className="text-lg px-8">
-              Discover trip
+              Join the Beta on WhatsApp
             </Button>
           </div>
         </div>

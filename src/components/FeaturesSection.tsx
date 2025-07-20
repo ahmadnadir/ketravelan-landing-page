@@ -29,8 +29,8 @@ const FeaturesSection = () => {
       )
     },
     {
-      title: "Share Costs and Save More",
-      description: "Traveling in a group doesn't just make trips more fun—it also makes them affordable. Share transportation, accommodations, and other expenses to stretch your budget further while enjoying every footstep.",
+      title: "Share Costs, Travel More",
+      description: "Traveling in a group doesn't just make trips more fun—it also makes them affordable. Share transportation, accommodations, and other expenses to stretch your budget further while enjoying every footstep. It's not just cheaper—it's smarter travel.",
       illustration: (
         <svg width="200" height="200" viewBox="0 0 200 200" className="text-illustration">
           <g fill="none" stroke="currentColor" strokeWidth="2">
