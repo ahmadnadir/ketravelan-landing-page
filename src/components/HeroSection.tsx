@@ -1,13 +1,9 @@
 import { Button } from "@/components/ui/button";
-
 const HeroSection = () => {
-  return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8">
+  return <section className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-8">
-            Travel Further. Spend Less.
-          </h1>
+          <h1 className="text-4xl md:text-6xl font-bold text-foreground mb-8">Connect. Chat. Roam Freely</h1>
           
           {/* Hero Illustration */}
           <div className="flex justify-center mb-12">
@@ -50,14 +46,12 @@ const HeroSection = () => {
           </p>
 
           <div className="flex justify-center">
-            <Button variant="coral" size="lg" className="text-lg px-8">
+            <Button variant="coral" size="lg" className="text-lg px-8 bg-zinc-950 hover:bg-zinc-800">
               Join the Beta on WhatsApp
             </Button>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
