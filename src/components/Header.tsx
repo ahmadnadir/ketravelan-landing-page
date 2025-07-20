@@ -34,9 +34,8 @@ const Header = () => {
           </nav>
 
           {/* Desktop Auth Buttons */}
-          <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost">Sign In</Button>
-            <Button variant="coral">Sign Up</Button>
+          <div className="hidden md:flex items-center">
+            <Button variant="coral">Join as Tester</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -67,9 +66,8 @@ const Header = () => {
               <a href="#" className="block px-3 py-2 text-foreground hover:text-primary">
                 More
               </a>
-              <div className="flex flex-col space-y-2 px-3 pt-4">
-                <Button variant="ghost" className="w-full">Sign In</Button>
-                <Button variant="coral" className="w-full">Sign Up</Button>
+              <div className="px-3 pt-4">
+                <Button variant="coral" className="w-full">Join as Tester</Button>
               </div>
             </div>
           </div>
