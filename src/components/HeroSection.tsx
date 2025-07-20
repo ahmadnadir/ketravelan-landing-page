@@ -46,9 +46,7 @@ const HeroSection = () => {
           </p>
 
           <div className="flex justify-center">
-            <Button variant="coral" size="lg" className="text-lg px-8 bg-zinc-950 hover:bg-zinc-800">
-              Join the Beta on WhatsApp
-            </Button>
+            <Button variant="coral" size="lg" className="text-lg px-8 bg-zinc-950 hover:bg-zinc-800">Join as Tester</Button>
           </div>
         </div>
       </div>

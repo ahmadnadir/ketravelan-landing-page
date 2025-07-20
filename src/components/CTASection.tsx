@@ -8,9 +8,7 @@ const CTASection = () => {
         <p className="text-lg text-text-light mb-8">
           Post your trip. Connect with travelers. Travel better—together.
         </p>
-        <Button variant="coral" size="lg" className="text-lg px-12 bg-zinc-950 hover:bg-zinc-800">
-          Join the WhatsApp Beta
-        </Button>
+        <Button variant="coral" size="lg" className="text-lg px-12 bg-zinc-950 hover:bg-zinc-800">Join as Tester</Button>
       </div>
     </section>;
 };
